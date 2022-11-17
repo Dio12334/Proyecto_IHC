@@ -3,7 +3,7 @@
 --- !u!129 &1
 PlayerSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 23
+  serializedVersion: 22
   productGUID: 1e6724d80e49eea46bfed892a0182a68
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
@@ -135,7 +135,9 @@ PlayerSettings:
     16:9: 1
     Others: 1
   bundleVersion: 0.1
-  preloadedAssets: []
+  preloadedAssets:
+  - {fileID: 11400000, guid: 087150938f3a34a4c90731113741c34c, type: 2}
+  - {fileID: -582519399884773240, guid: f1ac403c96e465341a578c5f51ef047c, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -150,7 +152,6 @@ PlayerSettings:
   m_ColorGamuts: 00000000
   targetPixelDensity: 30
   resolutionScalingMode: 0
-  resetResolutionOnWindowResize: 0
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
